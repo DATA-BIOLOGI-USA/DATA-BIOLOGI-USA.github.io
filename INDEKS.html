@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsip Digital Praktikum Biologi</title>
+    
+    <!-- SCRIPT CSS UNTUK DESAIN (MAKE OVER) -->
+    <style>
+        /* Mengatur font dan warna latar belakang seluruh halaman */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f5; /* Warna abu-abu kehijauan lembut */
+            color: #2c3e50; /* Warna teks abu-abu gelap agar nyaman dibaca */
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Mengatur kotak pembungkus konten agar rapi di tengah */
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background: #ffffff; /* Kotak putih bersih */
+            padding: 30px;
+            border-radius: 12px; /* Sudut kotak agak melengkung */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Efek bayangan halus */
+        }
+
+        /* Desain Judul Utama */
+        h1 {
+            color: #2e7d32; /* Warna hijau hutan khas biologi */
+            font-size: 28px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            text-align: center;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #388e3c;
+            border-bottom: 2px solid #a5d6a7;
+            padding-bottom: 8px;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        /* Desain Daftar Laporan (List) */
+        ul {
+            list-style: none; /* Menghilangkan bulatan hitam bawaan */
+            padding: 0;
+        }
+
+        li {
+            background: #f9fbf9;
+            margin-bottom: 12px;
+            padding: 15px;
+            border-left: 5px solid #2e7d32; /* Garis hijau vertikal di samping */
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        li strong {
+            font-size: 16px;
+            color: #333;
+        }
+
+        /* Desain Tombol Link / Akses */
+        .links a {
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-left: 5px;
+            transition: all 0.3s ease;
+        }
+
+        /* Tombol Baca Web */
+        .btn-web {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .btn-web:hover {
+            background-color: #2e7d32;
+            color: white;
+        }
+
+        /* Tombol Download PDF */
+        .btn-pdf {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        .btn-pdf:hover {
+            background-color: #c62828;
+            color: white;
+        }
+
+        .disabled {
+            background-color: #eceff1;
+            color: #b0bec5;
+            cursor: not-allowed;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #b2bec3;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Konten dibungkus di dalam kelas container agar rapi -->
+    <div class="container">
+        <h1>Biology Digital Archive</h1>
+        <p class="subtitle">Perpustakaan digital praktikum & portofolio ilmiah ilmiah saya.</p>
+
+        <h2>📂 Daftar Laporan Praktikum - Semester 2</h2>
+        
+        <ul>
+            <li>
+                <strong>Ekologi Terestrial</strong> 
+                <div class="links">
+                    <a href="ekologi.html" class="btn-web">Baca Versi Web</a>
+                    <a href="#" class="btn-pdf">Download PDF</a>
+                </div>
+            </li>
+            
+            <li>
+                <strong>Mikrobiologi - Pewarnaan Gram</strong> 
+                <div class="links">
+                    <a href="#" class="btn-web disabled">Belum Tersedia</a>
+                </div>
+            </li>
+            
+            <li>
+                <strong>Fisiologi Tumbuhan - Fotosintesis</strong> 
+                <div class="links">
+                    <a href="#" class="btn-web disabled">Belum Tersedia</a>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <p>Website diperbarui berkala • © 2026</p>
+        </footer>
+    </div>
+
+</body>
+</html>
